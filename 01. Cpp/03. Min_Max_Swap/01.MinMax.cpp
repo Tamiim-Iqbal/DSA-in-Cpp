@@ -31,5 +31,12 @@ int main()
     int mn=min(a,b);
     int mx=max(a,b);
     cout<<"Min:"<<mn<<" "<<"Max:"<<mx<<endl;
+
+    int x, y, z;
+    cin>>x>>y>>z;
+    int multiMin = min({x,y,z});
+    int multiMax = max({x,y,z});
+
+    cout<<"Min:"<<multiMin<<" "<<"Max:"<<multiMax<<endl;
     return 0;
 }
